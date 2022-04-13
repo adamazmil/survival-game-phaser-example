@@ -1,4 +1,6 @@
-# Phaser 3 + React Webpack Project Template
+# Survival Game Phaser + React
+
+Follows tutorial at https://www.youtube.com/watch?v=fdXcD9X4NrQ
 
 A Phaser 3 + React project template with ES6 support via [Babel 7](https://babeljs.io/) and [Webpack 4](https://webpack.js.org/) that includes hot-reloading for development and production-ready builds.
 
