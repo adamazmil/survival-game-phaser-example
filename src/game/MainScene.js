@@ -18,10 +18,13 @@ export default class MainScene extends Phaser.Scene {
   create() {
     const map = this.make.tilemap({ key: "map" });
     const tileset = map.addTilesetImage("RPG Nature Tileset", "tiles", 32, 32);
-    const layer1 = map.createLayer("Tile Layer 1", tileset, 0, 0);
-    const layer2 = map.createLayer("Tile Layer 2", tileset, 0, 0);
+    const layer1 = map.createLayer("Tile Layer 1", tileset);
+    const layer2 = map.createLayer("Tile Layer 2", tileset);
+    //const layer3 = map.createFromObjects("Object Layer 1");
     layer1.setCollisionByProperty({ collides: true });
+    layer2.setCollisionByProperty({ collides: true });
     this.matter.world.convertTilemapLayer(layer1);
+    this.matter.world.convertTilemapLayer(layer2);
     this.player = new Player({
       scene: this,
       x: 50,
@@ -29,6 +32,9 @@ export default class MainScene extends Phaser.Scene {
       texture: "knight",
       frame: "eliteknight_idle_1",
     });
+    const layer3 = map.createLayer("Above Player", tileset);
+    layer3.setCollisionByProperty({ collides: true });
+    this.matter.world.convertTilemapLayer(layer3);
     this.player.inputKeys = this.input.keyboard.addKeys({
       up: Phaser.Input.Keyboard.KeyCodes.W,
       down: Phaser.Input.Keyboard.KeyCodes.S,
