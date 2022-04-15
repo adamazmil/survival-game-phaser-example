@@ -3,6 +3,9 @@ import Phaser from "phaser";
 import Player from "./Player.js";
 import MapJSON from "../assets/map/map.json";
 import Map from "../assets/map/RPG Nature Tileset.png";
+//import MapJSON from "../assets/map/isomap.json";
+//import Map from "../assets/map/text.png";
+import Camel from "./Camel.js";
 export default class MainScene extends Phaser.Scene {
   constructor() {
     super("MainScene");
@@ -11,16 +14,16 @@ export default class MainScene extends Phaser.Scene {
   preload() {
     //this.load.image("logo", knight);
     Player.preload(this);
+    Camel.preload(this);
     this.load.image("tiles", Map);
     this.load.tilemapTiledJSON("map", MapJSON);
   }
 
   create() {
     const map = this.make.tilemap({ key: "map" });
-    const tileset = map.addTilesetImage("RPG Nature Tileset", "tiles", 32, 32);
+    const tileset = map.addTilesetImage("RPG Nature Tileset", "tiles");
     const layer1 = map.createLayer("Tile Layer 1", tileset);
     const layer2 = map.createLayer("Tile Layer 2", tileset);
-    //const layer3 = map.createFromObjects("Object Layer 1");
     layer1.setCollisionByProperty({ collides: true });
     layer2.setCollisionByProperty({ collides: true });
     this.matter.world.convertTilemapLayer(layer1);
@@ -32,6 +35,7 @@ export default class MainScene extends Phaser.Scene {
       texture: "knight",
       frame: "eliteknight_idle_1",
     });
+    this.cameras.main.startFollow(this.player);
     const layer3 = map.createLayer("Above Player", tileset);
     layer3.setCollisionByProperty({ collides: true });
     this.matter.world.convertTilemapLayer(layer3);
@@ -40,6 +44,7 @@ export default class MainScene extends Phaser.Scene {
       down: Phaser.Input.Keyboard.KeyCodes.S,
       left: Phaser.Input.Keyboard.KeyCodes.A,
       right: Phaser.Input.Keyboard.KeyCodes.D,
+      pet: Phaser.Input.Keyboard.KeyCodes.E,
     });
   }
   update() {
