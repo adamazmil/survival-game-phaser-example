@@ -1,5 +1,5 @@
-import Phaser from "phaser";
-import PhaserMatterCollisionPlugin from "phaser-matter-collision-plugin";
+import Phaser from "@adamazmil/phaser";
+//import PhaserMatterCollisionPlugin from "phaser-matter-collision-plugin";
 import MainScene from "./MainScene.js";
 class MyGame extends Phaser.Scene {
   constructor() {
@@ -24,15 +24,6 @@ const config = {
       debug: true,
       gravity: { y: 0 },
     },
-  },
-  plugins: {
-    scene: [
-      {
-        plugin: PhaserMatterCollisionPlugin,
-        key: "matterCollision",
-        mapping: "matterCollision",
-      },
-    ],
   },
 };
 const game = new Phaser.Game(config);
