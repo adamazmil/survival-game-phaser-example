@@ -49,8 +49,7 @@ function create() {
   this.matter.world.convertTilemapLayer(layer2);
   var cursors = this.input.keyboard.createCursorKeys();
 
-
-  this.cameras.main.setZoom(2);
+  this.cameras.main.setZoom(1);
 
   var controlConfig = {
     camera: this.cameras.main,
