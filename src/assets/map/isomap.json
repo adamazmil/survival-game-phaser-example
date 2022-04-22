@@ -46,7 +46,7 @@
         }],
  "nextlayerid":4,
  "nextobjectid":1,
- "orientation":"orthogonal",
+ "orientation":"isometric",
  "renderorder":"right-down",
  "tiledversion":"1.8.4",
  "tileheight":32,
@@ -122,6 +122,53 @@
                          "type":"bool",
                          "value":true
                         }]
+                }, 
+                {
+                 "id":5,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":0,
+                             "id":1,
+                             "name":"",
+                             "polygon":[
+                                    {
+                                     "x":0,
+                                     "y":0
+                                    }, 
+                                    {
+                                     "x":-31.75,
+                                     "y":46.5
+                                    }, 
+                                    {
+                                     "x":-2.25,
+                                     "y":62.25
+                                    }, 
+                                    {
+                                     "x":1.25,
+                                     "y":63
+                                    }, 
+                                    {
+                                     "x":33,
+                                     "y":16.75
+                                    }],
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":0,
+                             "x":31,
+                             "y":1
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    }
                 }],
          "tilewidth":64
         }],
