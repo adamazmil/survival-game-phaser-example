@@ -1,10 +1,10 @@
 import Phaser from "@adamazmil/phaser";
 //import logoImg from "../assets/logo.png";
 import Player from "./Player.js";
-//import MapJSON from "../assets/map/map.json";
-//import Map from "../assets/map/RPG Nature Tileset.png";
-import MapJSON from "../assets/map/isomap.json";
-import Map from "../assets/map/text.png";
+import MapJSON from "../assets/map/map.json";
+import Map from "../assets/map/RPG Nature Tileset.png";
+//import MapJSON from "../assets/map/isomap.json";
+//import Map from "../assets/map/text.png";
 import Camel from "./Camel.js";
 export default class MainScene extends Phaser.Scene {
   constructor() {
@@ -21,13 +21,13 @@ export default class MainScene extends Phaser.Scene {
 
   create() {
     const map = this.make.tilemap({ key: "map" });
-    const tileset = map.addTilesetImage("text", "tiles");
+    const tileset = map.addTilesetImage("RPG Nature Tileset", "tiles");
     const layer1 = map.createLayer("Tile Layer 1", tileset);
-    //const layer2 = map.createLayer("Tile Layer 2", tileset);
+    const layer2 = map.createLayer("Tile Layer 2", tileset);
     layer1.setCollisionByProperty({ collides: true });
-    //layer2.setCollisionByProperty({ collides: true });
+    layer2.setCollisionByProperty({ collides: true });
     this.matter.world.convertTilemapLayer(layer1);
-    //this.matter.world.convertTilemapLayer(layer2);
+    this.matter.world.convertTilemapLayer(layer2);
     this.player = new Player({
       scene: this,
       x: 50,
