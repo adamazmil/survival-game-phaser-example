@@ -25,7 +25,7 @@
          "name":"Tile Layer 2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":8,
          "x":0,
          "y":0
@@ -46,7 +46,7 @@
         }],
  "nextlayerid":4,
  "nextobjectid":1,
- "orientation":"isometric",
+ "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.8.4",
  "tileheight":32,
@@ -68,7 +68,6 @@
                  "objectgroup":
                     {
                      "draworder":"index",
-                     "id":2,
                      "name":"",
                      "objects":[
                             {

@@ -1,7 +1,6 @@
 import archer from "../assets/sprites/archer.png";
 import archerJSON from "../assets/sprites/archer_atlas.json";
 import archerAnimJSON from "../assets/sprites/archer_anim.json";
-//import { Camera } from "phaser";
 
 export default class Camel extends Phaser.Physics.Matter.Sprite {
   constructor(data) {

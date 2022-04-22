@@ -1,5 +1,4 @@
 import Phaser from "@adamazmil/phaser";
-//import PhaserMatterCollisionPlugin from "phaser-matter-collision-plugin";
 import MainScene from "./MainScene.js";
 class MyGame extends Phaser.Scene {
   constructor() {

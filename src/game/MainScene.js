@@ -6,6 +6,7 @@ import Map from "../assets/map/RPG Nature Tileset.png";
 //import MapJSON from "../assets/map/isomap.json";
 //import Map from "../assets/map/text.png";
 import Camel from "./Camel.js";
+import findPath from "./findPath.js";
 export default class MainScene extends Phaser.Scene {
   constructor() {
     super("MainScene");
@@ -45,6 +46,18 @@ export default class MainScene extends Phaser.Scene {
       left: Phaser.Input.Keyboard.KeyCodes.A,
       right: Phaser.Input.Keyboard.KeyCodes.D,
       pet: Phaser.Input.Keyboard.KeyCodes.E,
+    });
+    this.input.on(Phaser.Input.Events.POINTER_UP, (pointer) => {
+      const { worldX, worldY } = pointer;
+
+      const startVec = layer1.worldToTileXY(this.player.x, this.player.y);
+      const targetVec = layer1.worldToTileXY(worldX, worldY);
+
+      const path = findPath(startVec, targetVec, layer1, layer3);
+      this.player.moveAlong(path);
+    });
+    this.events.on(Phaser.Scenes.Events.SHUTDOWN, () => {
+      this.input.off(Phaser.Input.Events.POINTER_UP);
     });
   }
   update() {
