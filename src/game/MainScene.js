@@ -31,8 +31,8 @@ export default class MainScene extends Phaser.Scene {
     this.matter.world.convertTilemapLayer(layer2);
     this.player = new Player({
       scene: this,
-      x: 50,
-      y: 50,
+      x: 32,
+      y: 32,
       texture: "knight",
       frame: "eliteknight_idle_1",
     });

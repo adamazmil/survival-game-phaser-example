@@ -20,6 +20,7 @@ export default class Player extends Phaser.Physics.Matter.Sprite {
     const compoundBody = Body.create({
       parts: [playerCollider, playerSensor],
       frictionAir: 0.35,
+      bounce: 0.1,
     });
     this.setExistingBody(compoundBody);
     this.setFixedRotation();
@@ -102,32 +103,32 @@ export default class Player extends Phaser.Physics.Matter.Sprite {
           this.moveTo(this.movePath.shift());
           return;
         }
-        this.moveToTarget = undefined;
+        this.moveToTarget = false;
       }
+    }
 
-      const leftDown = dx < 0;
-      const rightDown = dx > 0;
-      const upDown = dy < 0;
-      const downDown = dy > 0;
+    const leftDown = dx < 0;
+    const rightDown = dx > 0;
+    const upDown = dy < 0;
+    const downDown = dy > 0;
 
-      if (leftDown) {
-        this.anims.play("knight_walk", true);
-        this.setVelocity(-speed, 0);
-        this.setFlipX(true);
-      } else if (rightDown) {
-        this.anims.play("knight_walk", true);
-        this.setVelocity(speed, 0);
-        this.setFlipX(false);
-      } else if (upDown) {
-        this.anims.play("knight_walk", true);
-        this.setVelocity(0, -speed);
-      } else if (downDown) {
-        this.anims.play("knight_walk", true);
-        this.setVelocity(0, speed);
-      } else {
-        this.anims.play("knight_idle", true);
-        this.setVelocity(0, 0);
-      }
+    if (leftDown) {
+      this.anims.play("knight_walk", true);
+      this.setVelocity(-speed, 0);
+      this.setFlipX(true);
+    } else if (rightDown) {
+      this.anims.play("knight_walk", true);
+      this.setVelocity(speed, 0);
+      this.setFlipX(false);
+    } else if (upDown) {
+      this.anims.play("knight_walk", true);
+      this.setVelocity(0, -speed);
+    } else if (downDown) {
+      this.anims.play("knight_walk", true);
+      this.setVelocity(0, speed);
+    } else {
+      this.anims.play("knight_idle", true);
+      this.setVelocity(0, 0);
     }
   }
 }

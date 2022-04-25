@@ -1,5 +1,3 @@
-import Phaser from "@adamazmil/phaser";
-
 const toKey = (x, y) => `${x}x${y}`;
 
 const findPath = (start, target, groundLayer, wallsLayer) => {
@@ -17,7 +15,7 @@ const findPath = (start, target, groundLayer, wallsLayer) => {
   const startKey = toKey(start.x, start.y);
   const targetKey = toKey(target.x, target.y);
   parentForKey[startKey] = {
-    key: start,
+    key: "",
     position: {
       x: -1,
       y: -1,
@@ -82,9 +80,6 @@ const findPath = (start, target, groundLayer, wallsLayer) => {
   let path = [];
   let currentKey = targetKey;
   let currentPos = parentForKey[targetKey].position;
-  console.log("start key", startKey);
-  console.log("curr key", currentKey);
-  console.log("curr pos", currentPos);
   while (currentKey !== startKey) {
     const pos = groundLayer.tileToWorldXY(currentPos.x, currentPos.y);
     pos.x += groundLayer.tilemap.tileWidth * 0.5;
@@ -95,7 +90,7 @@ const findPath = (start, target, groundLayer, wallsLayer) => {
     currentPos = position;
   }
   console.log("path", path);
-  return path;
+  return path.reverse();
 };
 
 export default findPath;
