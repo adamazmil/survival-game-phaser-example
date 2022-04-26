@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"",
-         "data":"QgAAAEMAAABDAAAAQwAAAEMAAABEAAAAKgAAACoAAAAqAAAAQgAAAEMAAABDAAAAQwAAAEMAAABDAAAARAAAAFYAAABXAAAAVwAAAFcAAABXAAAAWQAAAEMAAABDAAAAQwAAAFoAAABXAAAAVwAAAFcAAABXAAAAVwAAAFgAAABWAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABYAAAAVgAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAWAAAAFYAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFgAAABWAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABYAAAAVgAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAWAAAAFYAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFgAAABWAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABYAAAAVgAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAWAAAAFYAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAARQAAAGwAAABWAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFgAAAAqAAAAagAAAEYAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABZAAAARAAAACoAAABqAAAAawAAAEYAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFgAAAAqAAAAKgAAACoAAABWAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABYAAAAKgAAACoAAAAqAAAAagAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAbAAAAA==",
+         "data":"QgAAAEMAAABDAAAAQwAAAEMAAABEAAAAKgAAACoAAAAqAAAAQgAAAEMAAABDAAAAQwAAAEMAAABDAAAARAAAAFYAAABXAAAAVwAAAFcAAABXAAAAWQAAAEMAAABDAAAAQwAAAFoAAABXAAAAVwAAAFcAAABXAAAAVwAAAFgAAABWAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABYAAAAVgAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAWAAAAFYAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFgAAABWAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABYAAAAVgAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAWAAAAFYAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFgAAABWAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAAApAAAAVwAAAFcAAABXAAAAVwAAAFcAAABYAAAAVgAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAWAAAAFYAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAARQAAAGwAAABWAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFgAAAAqAAAAagAAAEYAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABZAAAARAAAACoAAABqAAAAawAAAEYAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFgAAAAqAAAAKgAAACoAAABWAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABYAAAAKgAAACoAAAAqAAAAagAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAAbAAAAA==",
          "encoding":"base64",
          "height":16,
          "id":1,
@@ -18,7 +18,7 @@
         }, 
         {
          "compression":"",
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfgAAAH8AAAB\/AAAAfwAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH8AAAB\/AAAAAAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAkwAAACsAAACUAAAAAAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAAArAAAAlAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAKwAAACsAAAArAAAAlAAAAAAAAAAAAAAAkgAAACsAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAAArAAAAKwAAAJQAAAAAAAAAAAAAAKYAAACnAAAApwAAAKcAAACoAAAAAAAAAAAAAAAAAAAAkgAAAIIAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAACUAAAAAAAAAAAAAAAAAAAAfgAAAH8AAAB\/AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAkgAAACsAAAArAAAAlAAAAAAAAAAAAAAAAAAAAJIAAACTAAAAKwAAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAkwAAACsAAAB\/AAAAfwAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAfgAAAH8AAACAAAAAAAAAAAAAAAAAAAAAkgAAAJMAAACnAAAAKwAAACsAAACUAAAAAAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAlAAAAAAAAAAAAAAAAAAAAKYAAACnAAAAAAAAAKcAAACoAAAAlAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAKwAAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkgAAACsAAACUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKYAAACnAAAAqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfgAAAH8AAAB\/AAAAfwAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH8AAAB\/AAAAAAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAkwAAACsAAACUAAAAAAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAAArAAAAlAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAKwAAACsAAAArAAAAlAAAAAAAAAAAAAAAkgAAACsAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAAArAAAAKwAAAJQAAAAAAAAAAAAAAKYAAACnAAAApwAAAKcAAACoAAAAAAAAAAAAAAAAAAAAkgAAAIIAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAACUAAAAAAAAAAAAAAAAAAAAfgAAAH8AAAB\/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkgAAACsAAAArAAAAlAAAAAAAAAAAAAAAAAAAAJIAAACTAAAAKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAkwAAACsAAAB\/AAAAfwAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH8AAACAAAAAAAAAAAAAAAAAAAAAkgAAAJMAAACnAAAAKwAAACsAAACUAAAAAAAAAM0AAADOAAAAzwAAAJIAAAArAAAAlAAAAAAAAAAAAAAAAAAAAKYAAACnAAAAAAAAAKcAAACoAAAAlAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAKwAAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkgAAACsAAACUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKYAAACnAAAAqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
          "encoding":"base64",
          "height":16,
          "id":2,
@@ -29,8 +29,22 @@
          "width":16,
          "x":0,
          "y":0
+        }, 
+        {
+         "compression":"",
+         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAAAAAAC1AAAAtgAAALcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwQAAAMIAAADDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+         "encoding":"base64",
+         "height":16,
+         "id":3,
+         "name":"Above Player",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":16,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":3,
+ "nextlayerid":4,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
@@ -40,7 +54,7 @@
         {
          "columns":20,
          "firstgid":1,
-         "image":"..\/..\/..\/..\/..\/..\/..\/Downloads\/RPG Nature Tileset.png",
+         "image":"RPG Nature Tileset.png",
          "imageheight":288,
          "imagewidth":641,
          "margin":0,
@@ -50,7 +64,29 @@
          "tileheight":32,
          "tiles":[
                 {
-                 "id":0,
+                 "id":1,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":9.99790312434473,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":9.2598028936884,
+                             "x":11.5412036066261,
+                             "y":14.1581044244076
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -60,6 +96,28 @@
                 }, 
                 {
                  "id":2,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":18,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":17.5,
+                             "x":6.75,
+                             "y":7.25
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -69,6 +127,28 @@
                 }, 
                 {
                  "id":20,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":5.0996015936255,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":7.24680226462571,
+                             "x":12.5477039211575,
+                             "y":19.1906059970644
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -478,6 +558,189 @@
                              "width":11.9369,
                              "x":19.282755949209,
                              "y":0.787037479156282
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
+        }, 
+        {
+         "columns":12,
+         "firstgid":181,
+         "image":"Tree\/tree.png",
+         "imageheight":384,
+         "imagewidth":384,
+         "margin":0,
+         "name":"tree",
+         "spacing":0,
+         "tilecount":144,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":0
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":3
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":6
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":9
+                        }],
+                 "id":0
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":1
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":4
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":7
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":10
+                        }],
+                 "id":1
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":2
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":5
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":8
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":11
+                        }],
+                 "id":2
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":12
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":15
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":18
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":21
+                        }],
+                 "id":12
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":13
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":16
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":19
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":22
+                        }],
+                 "id":13
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":14
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":17
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":20
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":23
+                        }],
+                 "id":14
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":25
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":28
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":31
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":34
+                        }],
+                 "id":25,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":13.2940350877193,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":20.48,
+                             "x":3.59298245614035,
+                             "y":3.14385964912281
                             }],
                      "opacity":1,
                      "type":"objectgroup",

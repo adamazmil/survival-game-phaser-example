@@ -33,11 +33,11 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "@adamazmil/phaser": "^3.60.0-iso-beta.1",
     "@babel/preset-react": "^7.16.7",
     "babel-preset-react": "^6.24.1",
     "path": "^0.12.7",
-    "phaser": "^3.50.0",
-    "phaser-matter-collision-plugin": "^1.0.0",
+    "phaser-animated-tiles-phaser3.5": "^2.0.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   }

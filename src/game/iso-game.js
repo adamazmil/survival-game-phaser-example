@@ -1,5 +1,5 @@
 import Phaser from "@adamazmil/phaser";
-import MainScene from "./MainScene.js";
+import IsoScene from "./IsoScene.js";
 import AnimatedTiles from "phaser-animated-tiles-phaser3.5";
 class MyGame extends Phaser.Scene {
   constructor() {
@@ -13,7 +13,7 @@ const config = {
   width: 512,
   height: 512,
   backgroundColor: "#ccc",
-  scene: [MainScene],
+  scene: [IsoScene],
   autoCenter: true,
   scale: {
     zoom: 2,

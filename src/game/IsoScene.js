@@ -1,16 +1,12 @@
 import Phaser from "@adamazmil/phaser";
 import AnimatedTiles from "phaser-animated-tiles-phaser3.5";
-//import logoImg from "../assets/logo.png";
-import Player from "./Player.js";
-import MapJSON from "../assets/map/map.json";
-import Map from "../assets/map/RPG Nature Tileset.png";
-import Tree from "../assets/map/Tree/tree.png";
-import TreeJSON from "../assets/map/Tree/tree_atlas.json";
-//import MapJSON from "../assets/map/isomap.json";
-//import Map from "../assets/map/text.png";
+import IsoPlayer from "./IsoPlayer.js";
+import MapJSON from "../assets/map/isomap.json";
+import Map from "../assets/map/text.png";
+import Anim from "../assets/map/animate.png";
 import Camel from "./Camel.js";
 import findPath from "./findPath.js";
-export default class MainScene extends Phaser.Scene {
+export default class IsoScene extends Phaser.Scene {
   constructor() {
     super("MainScene");
   }
@@ -24,25 +20,24 @@ export default class MainScene extends Phaser.Scene {
     );
 
     //this.load.image("logo", knight);
-    Player.preload(this);
+    IsoPlayer.preload(this);
     Camel.preload(this);
     this.load.image("tiles", Map);
-    this.load.image("tree", Tree);
+    this.load.image("animate", Anim);
     this.load.tilemapTiledJSON("map", MapJSON);
-    this.load.tilemapTiledJSON("treemap", TreeJSON);
   }
 
   create() {
     const map = this.make.tilemap({ key: "map" });
-    const tileset = map.addTilesetImage("RPG Nature Tileset", "tiles");
-    const tileset2 = map.addTilesetImage("tree", "tree");
+    const tileset = map.addTilesetImage("text", "tiles");
+    const tileset2 = map.addTilesetImage("animate", "animate");
     const layer1 = map.createLayer("Tile Layer 1", tileset);
-    const layer2 = map.createLayer("Tile Layer 2", [tileset, tileset2]);
+    const layer2 = map.createLayer("Tile Layer 2", [tileset]);
     layer1.setCollisionByProperty({ collides: true });
     layer2.setCollisionByProperty({ collides: true });
     this.matter.world.convertTilemapLayer(layer1);
     this.matter.world.convertTilemapLayer(layer2);
-    this.player = new Player({
+    this.player = new IsoPlayer({
       scene: this,
       x: 32,
       y: 32,
@@ -62,18 +57,18 @@ export default class MainScene extends Phaser.Scene {
       right: Phaser.Input.Keyboard.KeyCodes.D,
       pet: Phaser.Input.Keyboard.KeyCodes.E,
     });
-    this.input.on(Phaser.Input.Events.POINTER_UP, (pointer) => {
-      const { worldX, worldY } = pointer;
+    // this.input.on(Phaser.Input.Events.POINTER_UP, (pointer) => {
+    //   const { worldX, worldY } = pointer;
 
-      const startVec = layer1.worldToTileXY(this.player.x, this.player.y);
-      const targetVec = layer1.worldToTileXY(worldX, worldY);
+    //   const startVec = layer1.worldToTileXY(this.player.x, this.player.y);
+    //   const targetVec = layer1.worldToTileXY(worldX, worldY);
 
-      const path = findPath(startVec, targetVec, layer1, layer3);
-      this.player.moveAlong(path);
-    });
-    this.events.on(Phaser.Scenes.Events.SHUTDOWN, () => {
-      this.input.off(Phaser.Input.Events.POINTER_UP);
-    });
+    //   const path = findPath(startVec, targetVec, layer1, layer3);
+    //   this.player.moveAlong(path);
+    // });
+    // this.events.on(Phaser.Scenes.Events.SHUTDOWN, () => {
+    //   this.input.off(Phaser.Input.Events.POINTER_UP);
+    // });
   }
   update() {
     this.player.update();
