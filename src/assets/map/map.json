@@ -11,28 +11,28 @@
          "name":"Tile Layer 1",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":16,
          "x":0,
          "y":0
         }, 
         {
          "compression":"",
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfgAAAH8AAAB\/AAAAfwAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH8AAAB\/AAAAAAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAkwAAACsAAACUAAAAAAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAAArAAAAlAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAKwAAACsAAAArAAAAlAAAAAAAAAAAAAAAkgAAACsAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAAArAAAAKwAAAJQAAAAAAAAAAAAAAKYAAACnAAAApwAAAKcAAACoAAAAAAAAAAAAAAAAAAAAkgAAAIIAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAACUAAAAAAAAAAAAAAAAAAAAfgAAAH8AAAB\/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkgAAACsAAAArAAAAlAAAAAAAAAAAAAAAAAAAAJIAAACTAAAAKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAkwAAACsAAAB\/AAAAfwAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAfgAAAH8AAACAAAAAAAAAAAAAAAAAAAAAkgAAAJMAAACnAAAAKwAAACsAAACUAAAAAAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAlAAAAAAAAAAAAAAAAAAAAKYAAACnAAAAAAAAAKcAAACoAAAAlAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAKwAAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkgAAACsAAACUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKYAAACnAAAAqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfgAAAH8AAAB\/AAAAfwAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH8AAAB\/AAAAAAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAkwAAACsAAACUAAAAAAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAAArAAAAlAAAAAAAAAAAAAAAAAAAAJIAAAArAAAAKwAAACsAAAArAAAAlAAAAAAAAAAAAAAAkgAAACsAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAAArAAAAKwAAAJQAAAAAAAAAAAAAAKYAAACnAAAApwAAAKcAAACoAAAAAAAAAAAAAAAAAAAAkgAAAIIAAAArAAAAKwAAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAKwAAACsAAACUAAAAAAAAAAAAAAAAAAAAfgAAAH8AAAB\/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkgAAACsAAAArAAAAlAAAAAAAAAAAAAAAAAAAAJIAAACTAAAAKwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAkwAAACsAAAB\/AAAAfwAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH8AAACAAAAAAAAAAAAAAAAAAAAAkgAAAJMAAACnAAAAKwAAACsAAACUAAAAAAAAAM0AAADOAAAAzwAAAJIAAAArAAAAlAAAAAAAAAAAAAAAAAAAAKYAAACnAAAAAAAAAKcAAACoAAAAlAAAAAAAAAAAAAAAAAAAAAAAAACSAAAAKwAAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkgAAACsAAACUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKYAAACnAAAAqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
          "encoding":"base64",
          "height":16,
          "id":2,
          "name":"Tile Layer 2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":16,
          "x":0,
          "y":0
         }, 
         {
          "compression":"",
-         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+         "data":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAAAAAAC1AAAAtgAAALcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwQAAAMIAAADDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
          "encoding":"base64",
          "height":16,
          "id":3,
@@ -99,7 +99,6 @@
                  "objectgroup":
                     {
                      "draworder":"index",
-                     "id":2,
                      "name":"",
                      "objects":[
                             {
@@ -559,6 +558,189 @@
                              "width":11.9369,
                              "x":19.282755949209,
                              "y":0.787037479156282
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
+        }, 
+        {
+         "columns":12,
+         "firstgid":181,
+         "image":"Tree\/tree.png",
+         "imageheight":384,
+         "imagewidth":384,
+         "margin":0,
+         "name":"tree",
+         "spacing":0,
+         "tilecount":144,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":0
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":3
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":6
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":9
+                        }],
+                 "id":0
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":1
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":4
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":7
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":10
+                        }],
+                 "id":1
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":2
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":5
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":8
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":11
+                        }],
+                 "id":2
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":12
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":15
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":18
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":21
+                        }],
+                 "id":12
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":13
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":16
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":19
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":22
+                        }],
+                 "id":13
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":14
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":17
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":20
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":23
+                        }],
+                 "id":14
+                }, 
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":25
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":28
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":31
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":34
+                        }],
+                 "id":25,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":13.2940350877193,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":20.48,
+                             "x":3.59298245614035,
+                             "y":3.14385964912281
                             }],
                      "opacity":1,
                      "type":"objectgroup",

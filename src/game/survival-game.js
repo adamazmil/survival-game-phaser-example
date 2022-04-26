@@ -1,5 +1,6 @@
 import Phaser from "@adamazmil/phaser";
 import MainScene from "./MainScene.js";
+import AnimatedTiles from "phaser-animated-tiles-phaser3.5";
 class MyGame extends Phaser.Scene {
   constructor() {
     super("mygame");
