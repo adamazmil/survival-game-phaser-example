@@ -32,7 +32,7 @@
         }, 
         {
          "compression":"",
-         "data":"AwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+         "data":"AwAAAAMAAAADAAAABwAAAAMAAAADAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
          "encoding":"base64",
          "height":8,
          "id":3,
@@ -46,7 +46,7 @@
         }],
  "nextlayerid":4,
  "nextobjectid":1,
- "orientation":"orthogonal",
+ "orientation":"isometric",
  "renderorder":"right-down",
  "tiledversion":"1.8.4",
  "tileheight":32,
@@ -109,6 +109,90 @@
                              "width":0,
                              "x":-0.215866162978953,
                              "y":16.1899622234215
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":64
+        }, 
+        {
+         "columns":2,
+         "firstgid":7,
+         "image":"animate.png",
+         "imageheight":64,
+         "imagewidth":128,
+         "margin":0,
+         "name":"animate",
+         "spacing":0,
+         "tilecount":2,
+         "tileheight":64,
+         "tiles":[
+                {
+                 "animation":[
+                        {
+                         "duration":250,
+                         "tileid":0
+                        }, 
+                        {
+                         "duration":250,
+                         "tileid":1
+                        }],
+                 "id":0,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":0,
+                             "id":1,
+                             "name":"",
+                             "polygon":[
+                                    {
+                                     "x":0,
+                                     "y":0
+                                    }, 
+                                    {
+                                     "x":31.025333789798,
+                                     "y":14.7637795275591
+                                    }, 
+                                    {
+                                     "x":62.050667579596,
+                                     "y":0.427935638479973
+                                    }, 
+                                    {
+                                     "x":63.3344744950359,
+                                     "y":32.9510441629579
+                                    }, 
+                                    {
+                                     "x":32.9510441629579,
+                                     "y":47.286888052037
+                                    }, 
+                                    {
+                                     "x":28.6716877781582,
+                                     "y":47.286888052037
+                                    }, 
+                                    {
+                                     "x":-0.855871276959945,
+                                     "y":33.1650119821979
+                                    }],
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":0,
+                             "x":0.855871276959945,
+                             "y":16.6894899007189
                             }],
                      "opacity":1,
                      "type":"objectgroup",
