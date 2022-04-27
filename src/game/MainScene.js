@@ -73,6 +73,15 @@ export default class MainScene extends Phaser.Scene {
     this.events.on(Phaser.Scenes.Events.SHUTDOWN, () => {
       this.input.off(Phaser.Input.Events.POINTER_UP);
     });
+    this.matter.world.on("collisionstart", (event) => {
+      console.log(event.source.pairs.collisionStart[0].bodyA.label);
+      if (
+        event.source.pairs.collisionStart[0].bodyB.label === "playerCollider" ||
+        event.source.pairs.collisionStart[0].bodyA.label === "playerCollider"
+      ) {
+        this.player.stopPlayer();
+      }
+    });
   }
   update() {
     this.player.update();

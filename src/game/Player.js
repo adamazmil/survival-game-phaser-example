@@ -37,6 +37,9 @@ export default class Player extends Phaser.Physics.Matter.Sprite {
   moveTo(target) {
     this.moveToTarget = target;
   }
+  stopPlayer() {
+    this.moveToTarget = undefined;
+  }
 
   static preload(scene) {
     scene.load.atlas("knight", knight, knightJSON);
