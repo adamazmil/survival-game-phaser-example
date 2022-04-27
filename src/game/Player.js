@@ -24,18 +24,16 @@ export default class Player extends Phaser.Physics.Matter.Sprite {
     });
     this.setExistingBody(compoundBody);
     this.setFixedRotation();
-    let movePath = [];
-    let moveToTarget;
   }
 
   moveAlong(path) {
     if (!path || path.length <= 0) {
       return;
     }
-
     this.movePath = path;
     this.moveTo(this.movePath.shift());
   }
+
   moveTo(target) {
     this.moveToTarget = target;
   }
@@ -92,10 +90,10 @@ export default class Player extends Phaser.Physics.Matter.Sprite {
       dx = this.moveToTarget.x - this.x;
       dy = this.moveToTarget.y - this.y;
 
-      if (Math.abs(dx) < 5) {
+      if (Math.abs(dx) < 1) {
         dx = 0;
       }
-      if (Math.abs(dy) < 5) {
+      if (Math.abs(dy) < 1) {
         dy = 0;
       }
       if (dx === 0 && dy === 0) {
@@ -103,7 +101,7 @@ export default class Player extends Phaser.Physics.Matter.Sprite {
           this.moveTo(this.movePath.shift());
           return;
         }
-        this.moveToTarget = false;
+        this.moveToTarget = undefined;
       }
     }
 

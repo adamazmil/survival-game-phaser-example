@@ -44,16 +44,16 @@ export default class MainScene extends Phaser.Scene {
     this.matter.world.convertTilemapLayer(layer2);
     this.player = new Player({
       scene: this,
-      x: 32,
-      y: 32,
+      x: 240,
+      y: 240,
       texture: "knight",
       frame: "eliteknight_idle_1",
     });
+    this.player.setOrigin(0, 0);
     this.cameras.main.startFollow(this.player);
     const layer3 = map.createLayer("Above Player", [tileset, tileset2]);
     layer3.setCollisionByProperty({ collides: true });
     this.matter.world.convertTilemapLayer(layer3);
-    //map.createFromTiles()
     this.sys.animatedTiles.init(map);
     this.player.inputKeys = this.input.keyboard.addKeys({
       up: Phaser.Input.Keyboard.KeyCodes.W,
@@ -67,7 +67,6 @@ export default class MainScene extends Phaser.Scene {
 
       const startVec = layer1.worldToTileXY(this.player.x, this.player.y);
       const targetVec = layer1.worldToTileXY(worldX, worldY);
-
       const path = findPath(startVec, targetVec, layer1, layer3);
       this.player.moveAlong(path);
     });
