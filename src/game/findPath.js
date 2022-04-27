@@ -2,7 +2,6 @@ const toKey = (x, y) => `${x}x${y}`;
 
 export default function findPath(start, target, groundLayer, wallLayer) {
   // Invalid target tile
-  console.log("running");
   if (!groundLayer.getTileAt(target.x, target.y)) return [];
 
   // wall layer
@@ -75,6 +74,5 @@ export default function findPath(start, target, groundLayer, wallLayer) {
     currentKey = key;
     currentPos = position;
   }
-  console.log("in path", path);
   return path;
 }
