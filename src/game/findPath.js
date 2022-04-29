@@ -15,7 +15,7 @@ export default function findPath(start, target, groundLayer, wallLayer) {
   const targetKey = toKey(target.x, target.y);
 
   parentForKey[startKey] = {
-    key: "",
+    parentKey: "",
     position: { x: -1, y: -1 },
   };
 
@@ -51,7 +51,7 @@ export default function findPath(start, target, groundLayer, wallLayer) {
       if (key in parentForKey) continue;
 
       parentForKey[key] = {
-        key: currentKey,
+        parentKey: currentKey,
         position: { x: neighbor.x, y: neighbor.y },
       };
       queue.push(neighbor);
@@ -63,16 +63,19 @@ export default function findPath(start, target, groundLayer, wallLayer) {
   let currentKey = targetKey;
   let currentPos = parentForKey[targetKey].position;
   //build path from traversed tree
-  while (currentKey != startKey) {
+  while (currentKey !== startKey) {
+    currentPos = parentForKey[currentKey].position;
     const pos = groundLayer.tileToWorldXY(currentPos.x, currentPos.y);
+
+    //transposes coordinates to center of tile
     pos.x += groundLayer.tilemap.tileWidth * 0.5;
     pos.y += groundLayer.tilemap.tileHeight * 0.5;
 
+    //push this transposed position to the array
     path.push(pos);
 
-    const { key, position } = parentForKey[currentKey];
-    currentKey = key;
-    currentPos = position;
+    const { parentKey } = parentForKey[currentKey];
+    currentKey = parentKey;
   }
-  return path;
+  return path.reverse();
 }
